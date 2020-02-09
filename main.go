@@ -10,7 +10,7 @@ func main() {
 	//sort.HeapSort(a)
 	//sort.BubbleSort2
 	//sort.InsertSort(a)
-
+	sort.SelectSort(a)
 	fmt.Println(a)
 	b := sort.MergeSort(a)
 	//b := sort.QuickSort(a)
