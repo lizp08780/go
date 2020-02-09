@@ -9,9 +9,11 @@ func main() {
 	a := []int{1, 2, 0, 4, 3, 3}
 	//sort.HeapSort(a)
 	//sort.BubbleSort2
-	sort.InsertSort(a)
+	//sort.InsertSort(a)
+
 	fmt.Println(a)
-	b := sort.QuickSort(a)
+	b := sort.MergeSort(a)
+	//b := sort.QuickSort(a)
 	fmt.Println(b)
 	//beego.Run()
 }
